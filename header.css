@@ -1,0 +1,27 @@
+body {
+  font-family: var(--font--Family);
+}
+header {
+  width: 100vw;
+}
+.navbar {
+  width: 100%;
+  /* max-width: var(--maxWidth--desktop); */
+  color: var(--blue);
+  padding: 25px 52px;
+}
+
+.navbar__header {
+  display: flex;
+  align-content: flex-start;
+
+  font-size: var(--font--size--big);
+  font-weight: normal;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: flex-end;
+  font-size: var(--font--size--small);
+  font-weight: normal;
+}

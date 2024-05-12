@@ -1,0 +1,128 @@
+.hero {
+  width: 100vw;
+}
+.hero__information {
+}
+
+.hero__short {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+}
+.hero__short > h1 {
+  font-size: var(--font--size--mega);
+  color: var(--blue);
+}
+.hero__short > h2 {
+  font-size: var(--font--size--small);
+  color: var(--gray500);
+}
+
+.hero__category {
+  width: 960px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 2px;
+}
+
+.hero__Birth {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero__Birth > i {
+  color: var(--blue);
+}
+
+.hero__Birth > h2 {
+  font-size: var(--font--size--small);
+  color: var(--blue);
+}
+.hero__Birth > h3 {
+  font-size: var(--font--size--min);
+  color: var(--gray500);
+}
+.hero__Hobby {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero__Hobby > h2 {
+  font-size: var(--font--size--small);
+  color: var(--blue);
+}
+.hero__Hobby > h3 {
+  font-size: var(--font--size--min);
+  color: var(--gray500);
+}
+
+.hero__Hobby > i {
+  color: var(--blue);
+}
+
+.hero__Photo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero__Photo > h2 {
+  font-size: var(--font--size--small);
+  color: var(--blue);
+}
+
+.hero__Photo > h3 {
+  font-size: var(--font--size--min);
+  color: var(--gray500);
+}
+
+.hero__Photo > i {
+  color: var(--blue);
+}
+
+.hero__Sns {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero__Sns > h2 {
+  font-size: var(--font--size--small);
+  color: var(--blue);
+}
+
+.hero__Sns > h3 {
+  font-size: var(--font--size--min);
+  color: var(--gray500);
+}
+
+.hero__Sns > i {
+  color: var(--blue);
+}
+
+.hero__Contact__us {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero__Contact__us > h2 {
+  font-size: var(--font--size--small);
+  color: var(--blue);
+}
+
+.hero__Contact__us > h3 {
+  font-size: var(--font--size--min);
+  color: var(--gray500);
+}
+
+.hero__Contact__us > i {
+  color: var(--blue);
+}

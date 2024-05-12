@@ -1,0 +1,33 @@
+.photo {
+  padding: 20px;
+}
+.photo__list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 0px auto;
+}
+
+.photo__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+  font-size: var(--font--size--mega);
+  padding: 25px 0;
+}
+
+.photo__list1 > img {
+  width: 200px;
+  height: 300px;
+}
+
+.photo__list2 > img {
+  width: 200px;
+  height: 300px;
+}
+
+.photo__list3 > img {
+  width: 200px;
+  height: 300px;
+}
